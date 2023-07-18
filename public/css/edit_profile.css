@@ -1,0 +1,43 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.Edit-profile-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #FDFDFD;
+}
+
+.Edit-profile-form label {
+  align-self: flex-start;
+}
+
+.Edit-profile-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Edit-profile-form button {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--Primary_red);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.Edit-profile-form button:hover {
+  background-color: var(--Primary_orange);
+}
